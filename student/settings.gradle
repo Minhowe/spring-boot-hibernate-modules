@@ -1,0 +1,4 @@
+rootProject.name = 'student'
+
+include ':schoolinfo-service'
+project(':schoolinfo-service').projectDir = new File(settingsDir, '../schoolinfo-service')
